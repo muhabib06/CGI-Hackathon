@@ -25,12 +25,12 @@ MATURITY_CHECK = {
 Bewerte den folgenden API-Anwendungsfall: '{topic}'
 
 Antworte:
-1. Wenn der Anwendungsfall **zu unklar** ist und **keine klaren Hauptentitäten** (z.B. 'Mitarbeiter', 'Urlaubsantrag') oder **grundlegenden Funktionen** (CRUD) ableitbar sind: 
+1. Wenn der Anwendungsfall **zu unklar** ist und **keine klaren Hauptentitäten** (z.B. 'Mitarbeiter', 'Urlaubsantrag', 'Automodell') oder **grundlegenden Funktionen** (CRUD) ableitbar sind: 
     Antworte NUR mit 'NO' gefolgt von einer KURZEN LISTE (maximal 3 Stichpunkte), die genau erklärt, was fehlt und wie der User es verbessern soll (z.B. 'Es fehlen die zentralen Datenobjekte').
 2. Wenn mindestens eine **klare Hauptentität** und eine **CRUD-Funktion** (Erstellen, Abrufen, Aktualisieren, Löschen) implizit oder explizit erkennbar ist: 
     Antworte NUR mit 'YES'.
 
-Zweck ist es, **nur offensichtlich unsinnige oder leere Eingaben** abzulehnen.
+Zweck ist es, **nur offensichtlich unsinnige oder leere Eingaben** abzulehnen. **Sei tolerant bei kurzen, aber klaren Anfragen** (wie 'Verwaltung von Automodelle').
 """
 }
 
@@ -52,4 +52,5 @@ Context (The API Definition):
 
 Output ONLY the valid JSON array. No markdown.
 """
+
 }
